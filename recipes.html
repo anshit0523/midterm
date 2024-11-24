@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipes</title>
+    <link rel="stylesheet" href="css folder/recipes.css">
+</head>
+<body>
+    
+
+    <h1>Recipes</h1>
+
+    <!-- Search Section -->
+    <div class="search-section">
+        <div>
+            <input type="text" id="ingredientInput" placeholder="Enter ingredient">
+            <button type="button" onclick="searchByIngredient()">Search by Ingredient</button>
+        </div>
+
+        <div>
+            <select id="categorySelect">
+                <option value="">Select Category</option>
+                <option value="Dessert">Dessert</option>
+                <option value="Main Course">Main Course</option>
+                <option value="Appetizer">Appetizer</option>
+            </select>
+            <button type="button" onclick="searchByCategory()">Search by Category</button>
+        </div>
+    </div>
+
+    <!-- Search Results Section -->
+    <div id="searchResults" class="hidden"></div> <!-- Initially hidden, shown on search -->
+
+    <!-- All Recipes List Section -->
+    <div id="recipesList"></div>
+
+    <!-- Add Recipe Section -->
+    <div class="add-recipe-section">
+        <h2>Add a New Recipe</h2>
+        <form id="addRecipeForm">
+            <input type="text" id="title" name="title" placeholder="Recipe Title" required />
+            <textarea name="description" id="description" placeholder="Description" required></textarea>
+            <textarea name="ingredients" placeholder="Ingredients" required></textarea>
+            <textarea name="steps" placeholder="Cooking Steps" required></textarea>
+            <input type="text" name="category" placeholder="Category" required />
+            <button type="submit">Add Recipe</button>
+        </form>
+    </div>
+
+    <script src="clients.js"></script>
+</body>
+</html>
