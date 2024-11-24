@@ -1,0 +1,51 @@
+body{
+
+background-image: url(/picture/bg.jpg);
+background-repeat: no-repeat;
+background-repeat:no-repeat;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+
+#loginForm{
+   
+   background-color:#F2D8CA;
+   border-radius: 5px;
+   width: 330px;
+   height: 300px;
+   margin-top: 100px;
+   margin-right: 100px;
+   float: right;
+   text-align: center;
+ 
+
+}
+
+#email{
+
+  display: block; 
+  margin-top: 5px;
+  margin-left: 10px;
+  width: 200px;
+   
+
+}
+
+#password{
+   
+   margin-top: 5px;
+   margin-left: 10px;    
+   display: block;
+   width: 200px;
+
+}
+
+#btnsubmit{
+
+    margin-top: 10px;
+    margin-left: 10px;
+    display: block; 
+}

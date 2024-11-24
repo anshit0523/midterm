@@ -1,0 +1,55 @@
+body{
+
+   background-image: url(/picture/signup.jpg);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+   background-size: cover;
+
+}
+#registerForm{
+
+background-color:#ECC8B5;   
+border-style:none;
+width: 330px;
+height: 300px;
+float: right;
+margin-top:100px;
+margin-right: 100px;
+text-align: center;
+
+
+}
+
+#username{
+
+ width: 200px;
+margin-top: 15px;
+margin-left: 10px;
+display: block;
+
+
+}
+
+#email{
+   
+ width: 200px;
+  margin-left: 10px;
+  margin-top: 5px;
+  display: block;  
+}
+
+#password{
+    
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 5px;
+    display: block;
+
+}
+#btnsubmit{
+    
+    margin-left: 10px;
+    margin-top: 5px;
+    display: block;
+}
